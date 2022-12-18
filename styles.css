@@ -1,0 +1,104 @@
+#burgers, #tomatos, #cheese {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.title, .copyright {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: aquamarine;
+}
+
+.controls>p {
+    border-style: double;
+    font-size: x-large;
+    color: #292222;
+    font-weight:bold;
+    background-color: #da0b0b;
+}
+
+body > header > h1 {
+    font-family: Cursive, Helvetica, sans-serif;
+    color: rgb(82, 51, 14);
+
+}
+
+section>h1{
+    font-size: x-large;
+    color: #af2c2c;
+    font-weight:bold;
+    /* background-color: #292222; */
+}
+
+.controls>img {
+    width: 100px;
+    margin: 5px;
+    margin-bottom: 10%;
+}
+
+.ingredients {
+    margin-top: 70px;
+}
+
+
+.ingredients>img {
+    width: 150px;
+
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    height: 85vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("./images/burger-background.jpg");
+    background-color: #0c0c0c;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+
+.controls>div {
+    margin-bottom: 20px;
+    
+}
+
+.controls>div>button {
+    display: inline-block;
+    border-radius: 4px;
+    border: none;
+    color: #0c0c0c;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#clearAll {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f78181;
+    border: none;
+    color: #0c0c0c;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+footer p{
+    padding: 12.225px 0 12.225px 0;
+}

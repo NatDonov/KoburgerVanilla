@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My site</title>
+    <!--Icon Support-->
+    <link rel="icon" href="https://t3.ftcdn.net/jpg/02/36/03/66/360_F_236036622_ctUjaJTkIANvk9pJh0s5ZJRDWbM8ggT9.jpg" />
+    <!--External CSS-->
+    <link rel="stylesheet" href="styles.css" />
+    <!--JS-->
+    <script src="site.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+        <h1 class="title">Welcome to Natali's burger</h1>
+
+    </header>
+    <main class="main">
+      <section class="controls">
+
+        <h1>Choose your</h1>
+        <img src="./images/allburg.png" alt="burger">
+        
+        <div>
+            <button onclick="addBurger()">+ Add burger</button>
+            <button onclick="removeBurger()">- Remove burger</button>
+        </div>
+        <div>
+            <button onclick="addTomato()">+ Add tomato</button>
+            <button onclick="removeTomato()">- Remove tomato</button>
+        </div>
+
+        <div>
+            <button onclick="addCheese()">+ Add cheese</button>
+            <button onclick="removeCheese()">- Remove cheese</button>
+        </div>
+
+        <p>Total price is: <span id="total-price">5</span>$</p>
+
+        <div>
+            <button id="clearAll" onclick="clearAll()">Clear All</button>
+        </div>
+
+
+      </section>
+
+      <section class="ingredients">
+        <img src="./images/top.png" alt="bun top" />
+        <div id="tomatos"></div>
+        <div id="cheese"></div>
+        <div id="burgers"></div>
+        
+        <img src="./images/bottom.png" alt="bun top" />
+      </section>
+    </main>
+
+    <footer>
+        <p class="copyright">Copyright ©️ <span id="year"></span> All right reserved to Natali Donov</p>
+    </footer>
+  </body>
+</html>
